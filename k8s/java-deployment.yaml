@@ -15,5 +15,5 @@ spec:
       containers:
         - name: java-app
           image: eclipse-temurin:17
-          command: ["java"]
-          args: ["-version"]
+          command: ["sh", "-c"]
+          args: ["while true; do sleep 3600; done"]
