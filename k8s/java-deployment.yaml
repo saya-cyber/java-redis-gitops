@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: java-app
-          image: openjdk:17
+          image: eclipse-temurin:17
           command: ["java"]
           args: ["-version"]
